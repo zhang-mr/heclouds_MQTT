@@ -5,6 +5,10 @@ sdfie
 
 第二次测试 添加
 
+<<<<<<< HEAD
 ngsdif1 fs l
+=======
+branch modifed file testing  
+>>>>>>> zhang
 
 hahah
