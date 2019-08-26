@@ -50,7 +50,7 @@ void MqttBuffer_Reset(struct MqttBuffer *buf);
 struct MqttExtent *MqttBuffer_AllocExtent(struct MqttBuffer *buf, uint32_t size);
 /**
  * 将一个数据块添加到缓冲区的末尾
- * @param buf 存储数据块的缓冲区对象
+ * @param buf 存储数据块的缓冲区对象     
  * @param payload 数据块的首地址
  * @param size 数据块的大小（字节数）
  * @param own 非0时，数据块将被拷贝到缓冲区，为0时，缓冲区仅保存其引用
